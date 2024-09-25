@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3, 3, 3);
+    /* margin-right: 80px; */
+    padding: 20px 0px 20px 0px;
+
+}
+.logo-head{
+    font-weight: 100;
+    /* margin-right: 900px; */
+    /* margin-left: -1000px; */
+    margin-left: 100px;
+    color: white;
+}
+.list-items{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+.links{
+    text-decoration: none;
+    padding: 5px;
+    /* font-weight: 600; */
+    color: rgb(255, 255, 255);
+}
+.links:hover {
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+/* <!-- paragraph --> */
+
+#paragraph{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    line-height: 50px; 
+}
+/* <!-- links above photo --> */
+
+.lap{
+    display: flex;
+    justify-content: center;
+}
+.link2{
+    background-color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(250, 248, 248);
+    padding: 5px;
+    /* margin-top: 30px; */
+}
+
+/*--- photos under the link ---*/
+
+.photos{
+    display: grid;
+    /* align-items: center; */
+    margin-left: 220px;
+    margin-top: 30px;
+    grid-template-columns: 350px 350px 350px;
+    gap: 15px;
+}
+.img-w{
+    width: 350px;
+    /* align-items: center; */
+    /* height: 250px; */
+    border-radius: 10px;
+
+}
+.img5{
+    margin-top: -392px;
+}
+
+/* <!-- under the photo items & paragraph --> */
+
+.card{
+    text-align: center;
+    margin-top: 30px;
+}
+#part3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.part3icon{
+    color: black;
+    font-size: 30px;
+}
+/* <!-- black part --> */
+#part4{
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+    margin-top: 70px;
+}
+.logo-table {
+    width: 100%;
+    border-collapse: collapse;
+    /* border: solid 2px; */
+}
+.logo-table td {
+    width: 12.5%;
+    text-align: center;
+    padding: 20px;
+    border:  2px dashed;
+    color: white;
+}
+/* .logo-table img {
+    max-width: 100px;
+    max-height: 100px;
+} */
+ #part5{
+    margin-top: 100px;
+ }
+ .headingpart{
+    text-align: center;
+    margin: 30px 0px;
+    color: rgb(5, 5, 5);
+}
+.part6head{
+    padding: 30px;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    width: 300px;
+    padding: 20px;
+}
+.img2{
+    height: 534px;
+}
+.hd-6{
+    text-align: center;
+}
+#part7{
+    margin-top: 100px;
+    display: flex;
+}
+.list{
+    width: 40%;
+    margin-left: 250px;
+    margin-top: 200px;
+}
+h5{
+    border: solid 1.5px;
+    border-radius: 10px;
+    width: 300px;
+    padding: 5px;
+}
+.spn{
+    /* padding-left: 165px; */
+    float: right;
+    font-size: 20px;
+}
+.list-img{
+    width: 550px;
+}
+/* footer */
+.parent{
+    background-color: rgb(1, 1, 1);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    border-top: solid 1px rgb(228, 227, 227);
+}
+.child{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+
+}
+.ftr{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    align-items: center;
+ 
+}
+
+.icon{
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    
+}
+#contact{
+    margin: 20px ;
+}
+.brands{
+    font-size: 50px;
+    color: black;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,yellow,red,rgb(225,5,225));
+}
+
+/* ---------------animation ------------------------ */
+.icon:hover .brands{
+    animation: shake 3s;
+    color: aliceblue;
+}
+@keyframes shake{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
